@@ -1,4 +1,6 @@
 import json
+from unittest.mock import inplace
+
 import pandas as pd
 import pyarrow.csv as pa
 
@@ -17,8 +19,9 @@ print(customers.iat[0,0])
 print(customers['customer_fname'])
 customers['customer_married'] = False
 customers['customer_fullname'] = customers['customer_fname']+ ' ' + customers['customer_lname']
-
 customers['customer_serial'] = [ i for i in range(1,12436)]
 #del customers['customer_married']
-customers.pop(('customer_married'))
+#customers.pop(('customer_married'))
+customers.drop([customers['customer_married']],axis= 1,inplace=True)
+
 print(customers)
