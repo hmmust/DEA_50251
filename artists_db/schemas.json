@@ -1,0 +1,49 @@
+{
+    "artists": [
+        {
+            "column_name": "ConstituentID",
+            "data_type": "bigint",
+            "column_position": 1
+        },
+        {
+            "column_name": "Gender",
+            "data_type": "text",
+            "column_position": 5
+        },
+        {
+            "column_name": "ArtistBio",
+            "data_type": "text",
+            "column_position": 3
+        },
+        {
+            "column_name": "Nationality",
+            "data_type": "text",
+            "column_position": 4
+        },
+        {
+            "column_name": "BeginDate",
+            "data_type": "bigint",
+            "column_position": 6
+        },
+        {
+            "column_name": "EndDate",
+            "data_type": "bigint",
+            "column_position": 7
+        },
+        {
+            "column_name": "DisplayName",
+            "data_type": "text",
+            "column_position": 2
+        },
+        {
+            "column_name": "Wiki QID",
+            "data_type": "text",
+            "column_position": 8
+        },
+        {
+            "column_name": "ULAN",
+            "data_type": "double",
+            "column_position": 9
+        }
+    ]
+}
